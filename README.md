@@ -21,7 +21,7 @@ ExUTR has been tested on Ubuntu 12.04 desktop but it should work on most Linux o
 
 ![workflow] (https://
 
-###Comments and Bug report
+###Comments and bug report
 
 Please send your comment and bug reports to zixia.huang@ucdconnect.ie.
 
