@@ -75,6 +75,7 @@ Description:
 Example: perl 3UTR_orf.pl -i transcripts.fa -d path_to_swissprot -a 8 -o project
 
 ```
+```
 [user@ubuntu:~]$ perl 3UTR_ext.pl
 
 3UTR_ext.pl v1.0 15-02-2017
