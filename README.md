@@ -12,14 +12,14 @@ ExUTR contains three Steps: 1) Transcriptome assembly (Optional); 2) ORF predict
 
 ExUTR has been tested on Ubuntu 12.04 desktop but it should work on most Linux operating systems.
 
-#### - [Installation] (http://
-#### - [Quick Start] (http://
+#### - [Installation] (https://github.com/huangzixia/ExUTR/blob/master/doc/Installation.md)
+#### - [Quick Start] (https://github.com/huangzixia/ExUTR/blob/master/doc/Quick_start.md)
 
 ###ExUTR Workflow
 
 **Workflow.** 
 
-![workflow] (https://
+![workflow] (https://github.com/huangzixia/ExUTR/blob/master/doc/workflow.md)
 
 ###Comments and bug report
 
