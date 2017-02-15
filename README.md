@@ -25,4 +25,4 @@ ExUTR has been tested on Ubuntu 12.04 desktop but it should work on most Linux o
 
 Please send your comment and bug reports to zixia.huang@ucdconnect.ie.
 
-*Copyright (c) 2017, UCD School of Biology and Environmental Science, University College Dublin, Belfield 4, Dublin, Ireland.*
+*Copyright (c) 2017, UCD School of Biology and Environmental Science, University College Dublin, Belfield, Dublin 4, Ireland.*
