@@ -19,7 +19,7 @@ ExUTR has been tested on Ubuntu 12.04 desktop but it should work on most Linux o
 
 **Workflow.** 
 
-![workflow] (https://github.com/huangzixia/ExUTR/blob/master/doc/workflow.md)
+![workflow] (https://github.com/huangzixia/ExUTR/blob/master/doc/workflow.png)
 
 ###Comments and bug report
 
