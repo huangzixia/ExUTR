@@ -14,9 +14,11 @@
 
 ##Installation
 
-The instructions for the installation are based on Ubuntu Linux system.
+The instructions for the installation are based on the Ubuntu system. ExUTR does not support Windows system.
 
 **1. Install the dependent tools and databases.**
+
+- Ubuntu 12.04 or higher
 
 - Perl 5.6.1 or higher
 
@@ -38,7 +40,7 @@ The instructions for the installation are based on Ubuntu Linux system.
 
 - Swissprot
 
-The Swissprot database is pre-formatted which is ready to use with BLAST.
+The Swissprot database is pre-formatted which is ready to use with BLAST. Please include '.pal' extension file which ties multiple volumns of the Swissprot database together. ExUTR will check this file before performing BLAST search.
 
 
 - 3UTR.mam.fasta 
