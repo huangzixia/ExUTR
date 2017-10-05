@@ -6,7 +6,7 @@ Version 0.1.0
 
 ###Introduction
 
-ExUTR is a practical and powerful workflow that enables rapid genome-wide 3'-UTR prediction from massive RNA-Seq experiments. The implementation of ExUTR is based mainly on the intrinsic signals of transcripts, which is especially intriguing for countless non-model organisms where reference genomes and annotations are missing. Being independent of a well-annotated reference genome will dramatically expand its application to much broader research area for which RNA-Seq is available.
+ExUTR is a practical and powerful workflow that enables rapid genome-wide 3'-UTR prediction from massive RNA-Seq experiments. The implementation of ExUTR is based mainly on the intrinsic signals of transcripts, which is especially intriguing for countless non-model organisms where reference genomes and annotations are missing. Being independent of a well-annotated reference genome will dramatically expand its application to much broader research area for which RNA-Seq data is available.
 
 ExUTR contains three Steps: 1) Transcriptome assembly (Optional); 2) ORF prediction; 3) 3'-UTR retrieval.
 
