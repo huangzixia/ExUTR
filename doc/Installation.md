@@ -62,7 +62,7 @@ Due to the duplicated sequence ids in 3UTR.mam.fasta database, errors will be re
 Usage:
 
 
-perl 3UTR_orf.pl [ -i input_file_path ] [ -d swissprot_database_path ] [ -a blast_thread ] [ -o output_name ]
+perl 3UTR_orf.pl [ -i input_file_path ] [ -d swissprot_database_path ] [ -a blast_thread ] [ -o output_name ] [ -l lib_type ]
 
 
 Description:
@@ -73,8 +73,9 @@ Description:
     -d directory path to Swissprot database
     -a the number of threads for blast search, default: 2.
     -o prefix name for output files, default: project
+    -l library type (un: unstranded, ff: first-forward, fr: first-reverse)
 
-Example: perl 3UTR_orf.pl -i transcripts.fa -d path_to_swissprot -a 8 -o project
+Example: perl 3UTR_orf.pl -i transcripts.fa -d path_to_swissprot -a 8 -o project -l un
 
 ```
 [user@ubuntu:~]$ perl 3UTR_ext.pl
