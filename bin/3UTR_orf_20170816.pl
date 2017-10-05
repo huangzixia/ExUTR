@@ -18,7 +18,7 @@ use Bio::SearchIO;
 use Getopt::Long;
 
 my $usage = q/
-3UTR_orf.pl v1.0 15-02-2017
+3UTR_orf.pl v1.0 16-08-2017
 Usage:
 perl 3UTR_orf.pl [ -i input_file_path ] [ -d swissprot_database_path ] [ -a blast_thread ] [ -o output_name ] [ -l lib_type ]
 Description:
