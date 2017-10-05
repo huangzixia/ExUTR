@@ -19,7 +19,7 @@ use Getopt::Long;
 
 
 my $usage = q/
-3UTR_ext.pl v1.0 15-02-2017
+3UTR_ext.pl v1.0 16-08-2017
 Usage:
 perl 3UTR_ext.pl [ -i1 input_transcripts ] [ -i2 input_orfs ] [ -a blast_thread ] [ -o output_name.fa ] [ -x maximum 3UTR length ] [ -m minimum 3UTR length ] [ -d 3UTR_database ]
 Description:
