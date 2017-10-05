@@ -3,7 +3,7 @@
 ###Reading Open Frame (ORF) prediction
 
 ```
-perl 3UTR_orf.pl -i transcripts.fasta  -d /home/user/swissprot/swissprot -a 8 -o Test
+perl 3UTR_orf.pl -i transcripts.fasta  -d /home/user/swissprot/swissprot -a 8 -o Test -l un
 ```
 
 ###3'-UTR sequence retrieval
