@@ -8,7 +8,7 @@ This script allows you to extract 3-UTR region from the assembled transcripts.
      
  Author : Zixia Huang
  Email : zixia.huang@ucdconnect.ie
- Date : 15-02-2017
+ Date : 16-08-2017
  Version : 0.1.0
 =cut
 
