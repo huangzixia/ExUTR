@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 
 =head1 NAME
@@ -143,7 +143,7 @@ my $in = Bio::SeqIO -> new ( -file => $file_input_1 ); ## Read input FASTA file
            }
 
 
-           if ($lib_type eq 'ff')
+           elsif ($lib_type eq 'ff')
 
            {
 
@@ -156,7 +156,7 @@ my $in = Bio::SeqIO -> new ( -file => $file_input_1 ); ## Read input FASTA file
            }
 
 
-           if ($lib_type eq 'fr')
+           elsif ($lib_type eq 'fr')
 
            {
 
@@ -166,6 +166,14 @@ my $in = Bio::SeqIO -> new ( -file => $file_input_1 ); ## Read input FASTA file
 
            print OA '>'.$name."\n".$orf_re1."\n";
 
+           }
+           
+           else
+           
+           {
+           
+           die "Invalid library type value: '$lib_type'. Should be 'un', 'ff' or 'fr'."
+           
            }
       
        }

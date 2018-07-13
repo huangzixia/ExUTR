@@ -54,15 +54,15 @@ Due to the duplicated sequence ids in 3UTR.mam.fasta database, errors will be re
 
 ```
 [user@ubuntu:~]$ chmod 777 ExUTR/*
-[user@ubuntu:~]$ perl 3UTR_orf.pl
+[user@ubuntu:~]$ perl ExUTR_orf.pl
 
-3UTR_orf.pl v1.0 15-02-2017
+ExUTR_orf.pl v1.0 15-02-2017
 
 
 Usage:
 
 
-perl 3UTR_orf.pl [ -i input_file_path ] [ -d swissprot_database_path ] [ -a blast_thread ] [ -o output_name ] [ -l lib_type ]
+perl ExUTR_orf.pl [ -i input_file_path ] [ -d swissprot_database_path ] [ -a blast_thread ] [ -o output_name ] [ -l lib_type ]
 
 
 Description:
@@ -76,17 +76,18 @@ Description:
     -l library type (un: unstranded, ff: first-forward, fr: first-reverse)
 
 Example: perl 3UTR_orf.pl -i transcripts.fa -d path_to_swissprot -a 8 -o project -l un
+```
 
 ```
-[user@ubuntu:~]$ perl 3UTR_ext.pl
+[user@ubuntu:~]$ perl ExUTR_ext.pl
 
-3UTR_ext.pl v1.0 15-02-2017
+ExUTR_ext.pl v1.0 15-02-2017
 
 
 Usage:
 
 
-perl 3UTR_ext.pl [ -i1 input_transcripts ] [ -i2 input_orfs ] [ -a blast_thread ] [ -o output_name.fa ] [ -x maximum 3UTR length ] [ -m minimum 3UTR length ] [ -d 3UTR_database ]
+perl ExUTR_ext.pl [ -i1 input_transcripts ] [ -i2 input_orfs ] [ -a blast_thread ] [ -o output_name.fa ] [ -x maximum 3UTR length ] [ -m minimum 3UTR length ] [ -d 3UTR_database ]
 
 
 Description:
@@ -102,8 +103,7 @@ Description:
     -d directory path to the 3UTR database
 
 
-Example: perl 3UTR_ext.pl -i1 transcripts.fa -i2 orf.fa -d path_to_3UTR_database -a 8 -o 3UTR.fasta -x 2500 -m 30
+Example: perl ExUTR_ext.pl -i1 transcripts.fa -i2 orf.fa -d path_to_3UTR_database -a 8 -o 3UTR.fasta -x 2500 -m 30
+```
 
 Email bugs to zixia.huang@ucdconnect.ie
-
-```
